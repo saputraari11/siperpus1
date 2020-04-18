@@ -1,0 +1,62 @@
+   body {
+       background-color: rgba(199, 199, 199, 0.11);
+   }
+   
+   .bc {
+       text-align: center;
+       margin-top: -5%;
+       margin-bottom: 10%;
+       width: 35%;
+       height: 40%;
+       color: white;
+       background-color: rgba(104, 104, 104, 0.582);
+   }
+   
+   .container {
+       padding-top: 5%;
+       padding-bottom: 5%;
+       box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.4);
+       margin-top: 5%;
+       margin-bottom: 5%;
+       width: 30%;
+       background-color: rgba(212, 212, 212, 0.582);
+       border-radius: 5%;
+   }
+   
+   .log {
+       text-align: center;
+       width: 100%;
+   }
+   
+   .log .user {
+       margin-left: 18%;
+       text-align: left;
+       width: 70%;
+   }
+   
+   .log .nb {
+       border: 0;
+       background-color: rgba(212, 212, 212, 0.0);
+       width: 100%;
+       margin-right: 2%;
+       border-bottom: 3px solid rgb(68, 65, 65);
+   }
+   
+   .log .pass {
+       margin-left: 18%;
+       text-align: left;
+       width: 70%;
+   }
+   
+   .checkbox {
+       margin-right: 5%;
+       border-radius: 5%;
+   }
+   
+   .mn {
+       margin-left: 1%;
+   }
+   
+   .btn {
+       margin-left: 4%;
+   }

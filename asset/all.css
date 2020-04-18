@@ -1,0 +1,96 @@
+.img-tb {
+    margin-bottom: 5%;
+}
+
+#fa {
+    margin-left: -11%;
+    margin-top: 250px;
+}
+
+#fotoedit {
+    margin-left: -11%;
+    margin-top: 250px;
+}
+
+#modul {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    animation-name: fadein;
+    animation-duration: 0.4s;
+}
+
+#modul-content {
+    position: fixed;
+    margin-top: 22%;
+    margin-left: 20%;
+    width: 60%;
+    height: 40%;
+    animation-name: slidein;
+    animation-duration: 0.4s;
+}
+
+.modul-header,
+.modul-footer {
+    background-color: rgba(248, 248, 248, 0.863);
+}
+
+.modul-header {
+    padding: 3% 2%;
+}
+
+.modul-footer {
+    padding: 2% 2%;
+}
+
+.content {
+    background-color: azure;
+}
+
+@keyframes slidein {
+    from {
+        bottom: -500px;
+        opacity: 0;
+    }
+    to {
+        bottom: 10%;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#label-tb {
+    width: 30%;
+}
+
+.h-content {
+    padding: 3%;
+    border-radius: 30%;
+    background-color: blueviolet;
+}
+
+.h-content {
+    padding: 3%;
+    border-radius: 30%;
+    background-color: blueviolet;
+}
+
+.t-content {
+    padding: 3%;
+    border-radius: 30%;
+    background-color: rgba(252, 22, 22, 0.952);
+}
